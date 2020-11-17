@@ -1,0 +1,90 @@
+.header{
+  width:100vw;
+  height:8vh;
+  background:#f7f7f7;
+  border-bottom:2px solid #eee;
+  box-shadow:0px 6px 5px #ccc;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  position: relative;
+  padding-right: 6vw;
+  margin: 0 auto;
+  height:8vh;
+}
+.head-logo{
+  width:3rem;
+}
+.head-Title{
+  line-height:8vh;
+}
+.head-top-logo{
+  display:flex;
+  cursor:pointer;
+}
+.head-btnList{
+  line-height:8vh;
+  position: absolute;
+    right: 10vw;
+}
+.head-btnList button{
+  margin-left:1rem;
+  font-size:.8rem;
+}
+.head-icon{
+  position: absolute;
+  right:1vw;
+  line-height:9.4vh;
+}
+.head-icon span{
+  margin-left:1rem;
+  color:#ccc;
+  cursor: pointer;
+}
+
+/* 菜单style - start */
+.menu-list{
+  display: flex;
+  line-height: 1rem;
+  padding: .6rem 0;
+}
+.menu-bg{
+  width: 8px;
+  background: red;
+}
+.menu-tle{
+  font-size: .8rem;
+  font-weight: bold;
+  margin: 0 .5rem;
+}
+.menu-bz{
+  font-size: .8rem;
+  color: #999;
+  position: absolute;
+  right: 1rem;
+  font-weight: bold;
+}
+.menu-describe{
+  color:#999;
+  font-size: .6rem;
+}
+.menu-list:hover{
+  cursor: pointer;
+  color:#1890ff;
+  font-weight: bold;
+}
+.menu-head{
+  text-align: center;
+  margin-bottom:1rem;
+}
+.menu-head img{
+  transform:rotate(90deg);
+  margin-right:1rem;
+}
+.menu-head span{
+  cursor:pointer;
+}
+
+/* 菜单style - end */ 

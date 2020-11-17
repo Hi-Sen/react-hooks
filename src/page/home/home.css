@@ -1,0 +1,37 @@
+.home{
+  width:100vw;
+  height: 94vh;
+  background:#eee;
+  display: flex;
+}
+.home .nav{
+  height: 94vh;
+  overflow-y: auto;
+  background: #fff;
+}
+.home .content {
+  width:84vw;
+}
+.home .content .headerStyle{
+  width:100%;
+  background:#fff;
+  height:5.5vh;
+  line-height: 5.5vh;
+  /* color:#1890ff; */ 
+  font-weight:bold;
+  font-size:1rem;
+  padding-left:1rem;
+}
+.home .content  .content_style{
+  padding:1rem
+}
+.home_head {
+  height:6vh;
+  background:#1890ff;;
+  line-height:6vh;
+  text-align:center;
+}
+.home_head h3{
+  color:#fff;
+  font-weight: bold;
+}
